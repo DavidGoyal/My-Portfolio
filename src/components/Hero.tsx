@@ -21,7 +21,10 @@ const Hero = () => {
 							</a>
 						</button>
 						<button className="bg-blue-700 text-white rounded-md px-4 py-2 ">
-							<a href="#" target="_blank">
+							<a
+								href="https://drive.google.com/file/d/14ddolqTu2Q_ztabpZrXGcqiWRU3G3Kbs/view?usp=drive_link"
+								target="_blank"
+							>
 								Open Resume
 							</a>
 						</button>
