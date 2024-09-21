@@ -11,8 +11,8 @@ const Contact = () => {
 		>
 			<h1 className="text-5xl font-bold text-center">Contact Me</h1>
 			<p className="text-center">
-				I'm always open to new opportunities. Feel free to reach out with any
-				inquiries or project proposals.
+				I&apos;m always open to new opportunities. Feel free to reach out with
+				any inquiries or project proposals.
 			</p>
 
 			<a
