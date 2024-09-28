@@ -5,8 +5,27 @@ import tripguide from "../assets/tripguide.png";
 import netflix from "../assets/netflix.png";
 import TravelLink from "../assets/TravelLink.png";
 import SolGuard from "../assets/SolGuard.png";
+import ColorBet from "../assets/ColorBet.png";
 
 export const projects = [
+	{
+		name: "Color Bet",
+		description:
+			"Decentralized color guessing website that allows users to bet on the color.",
+		tags: [
+			"typescript",
+			"nextjs",
+			"prisma",
+			"postqres-sql",
+			"@solana/web3.js",
+			"wallet adapter",
+			"restapi",
+			"tailwindcss",
+		],
+		image: ColorBet,
+		source_code_link: "https://colorbet.io",
+		deployed_link: "https://colorbet.io",
+	},
 	{
 		name: "Travel Link",
 		description:
