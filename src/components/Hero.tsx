@@ -22,7 +22,7 @@ const Hero = () => {
 						</button>
 						<button className="bg-blue-700 text-white rounded-md px-4 py-2 ">
 							<a
-								href="https://drive.google.com/file/d/1Al7Ug-lYjrXMaf3WyEi4BLA2yVHRrzel/view?usp=sharing"
+								href="https://drive.google.com/file/d/16s_s87Liznysd3uxU-3SHCx8gjGzeX8H/view?usp=sharing"
 								target="_blank"
 							>
 								Open Resume
