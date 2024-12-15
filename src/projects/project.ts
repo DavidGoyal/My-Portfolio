@@ -6,8 +6,25 @@ import netflix from "../assets/netflix.png";
 import TravelLink from "../assets/TravelLink.png";
 import SolGuard from "../assets/SolGuard.png";
 import ColorBet from "../assets/ColorBet.png";
+import Twiftify from "../assets/Twiftify.png";
 
 export const projects = [
+	{
+		name: "Twiftify",
+		description:
+			"Decentralized website where NFT holders/owners can link their NFTs to their X account.",
+		tags: [
+			"typescript",
+			"nextjs",
+			"anchor",
+			"@solana/web3.js",
+			"wallet adapter",
+			"tailwindcss",
+		],
+		image: Twiftify,
+		source_code_link: "https://github.com/DavidGoyal/Twiftify",
+		deployed_link: "https://twiftify.twonoobs.tech",
+	},
 	{
 		name: "Color Bet",
 		description:
@@ -23,7 +40,7 @@ export const projects = [
 			"tailwindcss",
 		],
 		image: ColorBet,
-		source_code_link: "https://colorbet.io",
+		source_code_link: "https://github.com/DavidGoyal/ColorBet",
 		deployed_link: "https://colorbet.io",
 	},
 	{
