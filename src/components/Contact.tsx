@@ -16,14 +16,14 @@ const Contact = () => {
 			</p>
 
 			<a
-				href="mailto:davidgoyal55@gmail.com"
+				href="mailto:goyaldavid55@gmail.com"
 				target="_blank"
 				className="flex gap-4 items-center w-[16rem]"
 			>
 				<div className="text-white bg-[rgba(0,0,0,2)] rounded-md px-2 py-1 text-xs border-[1px] border-[rgba(255,255,255,0.1)]">
 					<IoMdMail className="text-blue-700 size-10"></IoMdMail>
 				</div>
-				<span className="text-white">davidgoyal55@gmail.com</span>
+				<span className="text-white">goyaldavid55@gmail.com</span>
 			</a>
 			<a
 				href="https://www.linkedin.com/in/david-goyal/"
