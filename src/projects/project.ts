@@ -16,7 +16,7 @@ export const projects = [
     tags: ["soldity", "typescript", "nextjs", "prisma", "tailwindcss"],
     image: coinflip,
     source_code_link: "https://github.com/DavidGoyal/coinflip",
-    deployed_link: "https://cubhub-coinflip.vercel.app",
+    deployed_link: "https://coinflip-gamma.vercel.app/",
   },
   {
     name: "Twiftify",
