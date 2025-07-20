@@ -7,7 +7,7 @@ const DESCRIPTION =
 const PREVIEW_IMAGE_URL =
   "https://res.cloudinary.com/dlu7jj0qk/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1723893090/avatar/spxjogcuzsvszrdeoexb.jpg";
 const ALT_TITLE = "David Goyal";
-const BASE_URL = "https://david-goyal.vercel.app";
+const BASE_URL = "https://davgoyal.xyz/";
 
 export const siteConfig: Metadata = {
   title: TITLE,
