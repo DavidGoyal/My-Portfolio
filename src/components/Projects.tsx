@@ -5,7 +5,7 @@ import Link from "next/link";
 const Projects = () => {
   return (
     <div className="min-h-[80vh] w-full bg-[rgba(0,0,0,2)] flex justify-center">
-      <div className="h-full w-full max-w-2xl flex flex-col items-center gap-4 my-8 sm:justify-center px-2">
+      <div className="h-full w-full max-w-3xl flex flex-col items-center gap-4 my-8 sm:justify-center px-2">
         <h1 className="text-5xl text-white font-bold">Projects</h1>
 
         <div className="w-full flex flex-row flex-wrap gap-4 mt-4 lg:justify-between justify-center">
@@ -38,13 +38,13 @@ const ProjectCard = ({
   skills: string[];
   deployed_link: string;
 }) => (
-  <div className="w-[320px] h-[400px] bg-[hsla(0%,8%,0%,1%)] rounded-md p-8 flex flex-col items-center justify-between bg-[#0a0a0a] border-[1px] border-[rgba(255,255,255,0.1)] overflow-y-auto hover:scale-105 transition-all duration-300">
+  <div className="w-[360px] h-[400px] bg-[hsla(0%,8%,0%,1%)] rounded-md flex flex-col items-center justify-between bg-[#0a0a0a] border-[1px] border-[rgba(255,255,255,0.1)] overflow-y-auto hover:scale-105 transition-all duration-300">
     <Link
-      className="w-full h-full rounded-md flex flex-col justify-between gap-4"
+      className="w-full h-full rounded-md flex flex-col justify-between gap-4 p-6"
       href={deployed_link}
       target="_blank"
     >
-      <Image src={img} alt="project" className="h-2/5 w-full rounded-md " />
+      <Image src={img} alt="project" className="h-3/5 w-full rounded-md " />
       <h1 className="text-white text-2xl font-bold">{title}</h1>
       <p className="text-[whitesmoke] text-sm">{description}</p>
       <div className="flex flex-row gap-4 flex-wrap">
