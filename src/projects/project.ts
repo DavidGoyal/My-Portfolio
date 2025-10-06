@@ -1,15 +1,25 @@
 import Hard from "../assets/75Hard.png";
-import carrent from "../assets/carrent.png";
-import jobit from "../assets/jobit.png";
-import tripguide from "../assets/tripguide.png";
-import netflix from "../assets/netflix.png";
-import TravelLink from "../assets/TravelLink.png";
-import SolGuard from "../assets/SolGuard.png";
-import ColorBet from "../assets/ColorBet.png";
-import Twiftify from "../assets/Twiftify.png";
 import coinflip from "../assets/coinflip.png";
+import NftBridge from "../assets/loomia-bridge.png";
+import Loomia from "../assets/Loomia.png";
+import TravelLink from "../assets/TravelLink.png";
 
 export const projects = [
+  {
+    name: "Loomia",
+    description: "A NFT marketplace and launchpad on Somnia chain.",
+    tags: ["solidity", "typescript", "nextjs", "prisma", "tailwindcss"],
+    image: Loomia,
+    deployed_link: "https://loomia.trade",
+  },
+  {
+    name: "NFT Bridge",
+    description:
+      "A NFT bridge platform to bridge nfts from Ethereum to Somnia chain.",
+    tags: ["solidity", "typescript", "nextjs", "prisma", "tailwindcss"],
+    image: NftBridge,
+    deployed_link: "https://bridge.loomia.trade",
+  },
   {
     name: "CoinFlip",
     description: "Decentralized coinflip game where people can lose or double.",
@@ -19,43 +29,9 @@ export const projects = [
     deployed_link: "https://coinflip-gamma.vercel.app/",
   },
   {
-    name: "Twiftify",
-    description:
-      "Decentralized website where NFT holders/owners can link their NFTs to their X account.",
-    tags: [
-      "typescript",
-      "nextjs",
-      "anchor",
-      "@solana/web3.js",
-      "wallet adapter",
-      "tailwindcss",
-    ],
-    image: Twiftify,
-    source_code_link: "https://github.com/DavidGoyal/Twiftify",
-    deployed_link: "https://twiftify.twonoobs.tech",
-  },
-  {
-    name: "Color Bet",
-    description:
-      "Decentralized color guessing website that allows users to bet on the color.",
-    tags: [
-      "typescript",
-      "nextjs",
-      "prisma",
-      "postqres-sql",
-      "@solana/web3.js",
-      "wallet adapter",
-      "restapi",
-      "tailwindcss",
-    ],
-    image: ColorBet,
-    source_code_link: "https://github.com/DavidGoyal/ColorBet",
-    deployed_link: "https://colorbet.io",
-  },
-  {
     name: "Travel Link",
     description:
-      "Tinder for solo travellers. Users can find for partners for their trips. Users can even chat with eact other.",
+      "Tinder for solo travellers. Users can find partners for their trips. Users can even chat with eact other.",
     tags: [
       "typescript",
       "material-ui",
@@ -90,70 +66,5 @@ export const projects = [
     image: Hard,
     source_code_link: "https://github.com/DavidGoyal/SweatFuse",
     deployed_link: "https://sweatfuse.vercel.app",
-  },
-  {
-    name: "SolGuard",
-    description:
-      "A decentralized app that helps users suffering from sol drain hack to send their spl tokens from one account to another without paying gas fees. Gas fees of each transaction is paid by us.",
-    tags: ["solana/web3.js", "material-ui", "react", "solana-wallet-adapter"],
-    image: SolGuard,
-    source_code_link: "https://github.com/DavidGoyal/SolGuard",
-    deployed_link: "https://sol-guard.vercel.app",
-  },
-  {
-    name: "Chat App",
-    description:
-      "Web-based chat app that allows users to chat, send attachments realtime. Users can create their groups and manage it realtime also enabling users to get notifications.",
-    tags: [
-      "material-ui",
-      "react",
-      "redux",
-      "rtk query",
-      "mongodb",
-      "express",
-      "jsonwebtoken",
-      "socket.io",
-      "restapi",
-      "framer-motion",
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/DavidGoyal/Realtime-Chat-App",
-    deployed_link: "https://chat-app-frontend-rho-three.vercel.app",
-  },
-  {
-    name: "Shopio",
-    description:
-      "Full Stack Ecommerce Website enabling users to buy products and also having a special admin dashboard for admins to process orders, create new products, update existing products.",
-    tags: [
-      "typescript",
-      "chartjs",
-      "react",
-      "redux",
-      "rtk query",
-      "restapi",
-      "node-cache",
-      "express",
-      "mongodb",
-      "scss",
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/DavidGoyal/Shopio",
-    deployed_link: "https://mern-e-commerce-frontend-seven.vercel.app",
-  },
-  {
-    name: "XCrypto",
-    description:
-      "A crypto tracker website helping users to get realtime data about different crypto currencies and exchanges",
-    tags: ["react", "chakra-ui", "framer-motion", "chartjs", "react-icons"],
-    image: tripguide,
-    source_code_link: "https://github.com/DavidGoyal/Crypto_App",
-    deployed_link: "https://crypto-app-tan-ten.vercel.app",
-  },
-  {
-    name: "Netflix Clone",
-    description: "UI clone of Netflix made using html and css",
-    tags: ["html", "css"],
-    image: netflix,
-    source_code_link: "https://github.com/DavidGoyal/Netflix-UI-Clone",
   },
 ];
